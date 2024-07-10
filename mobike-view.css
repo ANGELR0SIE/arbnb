@@ -1,0 +1,327 @@
+@font-face {
+    font-family: font1;
+    src: url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2");
+}
+@font-face {
+    font-family: font2;
+    src: url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2");
+}
+@font-face {
+    font-family: font3;
+    src: url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2");
+}
+@font-face {
+    font-family: font4;
+    src: url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/cereal-variable/AirbnbCerealVF_W_Wght.9c00198218646e3b3f345aa4bc3fda51.woff2");
+}
+body,html,ul,p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar-743px,
+.stays-experience-743px,
+.search-bar-743px{
+    display: none;
+}
+.search-bar-350px-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3px;
+    margin-top: 1px;
+    line-height: 18px;
+}
+.where-to{
+    font-size: 14px;
+    font-family: font2;
+}
+.color-grey{
+    color: #6a6a6a;
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    font-family: font1;
+    margin-right: 24px;
+}
+.Anywhere{
+    list-style: none;
+}
+.search-bar-350px-flex{
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 10px; */
+    padding: 0 4px;
+    width: 100%;
+}
+.search-bar-350px{
+    margin: 14px 16px 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
+    border: 1px solid rgba(0 0 0 / 0.1);
+
+}
+.search-bar-350px-search-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 12px;
+   
+}
+.categories{
+    display: flex;
+    overflow-x: scroll;
+    height: 74px;
+    padding: 0 24px;
+    gap: 20px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.category-items{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+   padding: 4px;
+}
+.categories-icon{
+    margin-bottom: 0;
+}
+.categories-icon-text{
+    font-family: font2;
+    font-size: 12px;
+    /* line-height: 20px; */
+    text-align: center;
+}
+#selected{
+    display: flex;
+    /* height: 100%; */
+    /* margin: 12px 0px 10px; */
+    /* padding-bottom: 20px; */
+    border-bottom:3px solid #222222;
+}
+header{
+    border-bottom: 1px solid black;
+}
+
+/* main */
+.image-card{
+    border-radius: 12px;
+    position: relative;
+    width: auto;
+   
+}
+.image-card-flex{
+    display: flex;
+    flex-direction: column;
+}
+.image-card-flex-image{
+    margin-bottom: 12px;
+    position: relative;
+    aspect-ratio: 20/90;
+    border-radius: 12px;
+    height:400px ;
+    width: 400px;
+}
+.image-card-flex-image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+@media(min-width:550px){
+    
+    .search-bar-350px{
+        margin: 14px 24px 0;
+    }
+    .search-bar-350px-search-icon{
+        margin-left: 17px;
+    }
+    .search-bar-350px-contents{
+        margin-left: 8px;
+    }
+}
+
+@media(min-width:744px){
+    .search-bar-350px{
+        display: none;
+    }
+    .nav-bar-Airbnb-logo-2{
+        display: none;
+    }
+    .search-bar-hidden{
+        margin: 14px 16px 0;
+        padding: 0px 20px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
+       display: none;
+      
+    }
+    .search-bar-hidden-flex-items{
+        padding: 0 16px;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    }
+    .search-bar-hidden-flex{
+        display: flex;
+        border-radius: 20px;
+        align-items: center;
+        padding: 0 4px;
+    }
+    #stays-inside-nav{
+        display: none;
+    }
+    .nav-bar-743px{
+        display: flex;
+         margin: 0 40px;
+        height: 80px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-bar-743px-last-flex{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .nav-bar-743px-last-flex-content{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    .nav-bar-button{
+        display: flex;
+        padding: 8px 8px 8px 14px;
+        border-radius: 9999px;
+        border: 1px solid #6a6a6a;
+        background-color: #fff;
+        align-items: center;
+        gap: 14px;
+    }
+    .color-121212{
+        color: #222222;
+        font-family: font2;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    #stays-outside-nav{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 16px;
+        height: 80px;
+        align-items: center;
+        /* display: none; */
+    }
+    .stays-inside-nav{
+        display: none;
+    }
+    .stays-experience-743px span{
+        font-size: 16px;
+    }
+    header{
+        height: 240px;
+    }
+    .search-bar-743px{
+        display: flex;
+  justify-content: space-between;
+  background: #f7f7f7;
+  padding: 5px;
+  border-radius: 50px;
+  margin: 14px 24px 0;
+  text-align: left;
+  align-items: center;
+  /* margin: 80px 20px 20px 20px; */
+    }
+    .search-item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+       
+        border-right: 2px solid #ddd;
+      }
+      .search-item:last-child {
+        border-right: none;
+      }
+      .search-item-icon {
+        border: none;
+        background: red;
+        cursor: pointer;
+        padding: 0 10px;
+        border-radius: 9999px;
+      }
+}
+@media(min-width:950px){
+    #stays-inside-nav{
+        display: flex;
+        gap: 24px;
+        /* gap: 20px; */
+        padding: 0 24px;
+        flex: 0 1 auto;
+        min-width: 348px;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 80px;
+        align-items: center;
+        
+    }
+    .nav-bar-Airbnb-logo-1{
+        flex: 1 0 140px;
+    }
+    .stays-experience-743px{
+        display: flex;
+        /* padding: 0 24px; */
+    }
+   .stays-experience-743px span{
+        font-size: 16px;
+        
+        /* margin: 10px 10px; */
+    }
+    #stays-outside-nav{
+        display: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    }
+}
+@media(min-width:1027px){
+   
+}
+@media(min-width:1128px){
+    .nav-bar-Airbnb-logo-2{
+        display: block;
+    }
+    .nav-bar-Airbnb-logo-1{
+        display: none;
+    } 
+}     
+
+
+
+
+
+
+hgffh  hhhhhhhh                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                         
+ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                         gu gg gu gugug                                                                                                                                                             
+
+                                                                                                                                                                                                                                                                                                                                         jojojojojojojoj  jojojojoj jojojoj jojo jojojoj ojojo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
