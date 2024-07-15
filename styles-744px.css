@@ -191,6 +191,27 @@
     flex-direction: column;
     gap: 4px;
   }
+  #inspiration-gateway-720px{
+    display: block;
+  }
+  .footer-last-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .privacy-2024{
+    align-items: center;
+  }
+  .socialmedia{
+    display: flex;
+    gap: 20px;
+  }
+  .social-media-language{
+    display: flex;
+   gap: 30px;
+   align-items: center;
+  }
 }
                   
                                                     

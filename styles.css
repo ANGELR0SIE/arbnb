@@ -270,7 +270,7 @@ footer{
 #inspiration-gateway-1160px{
     display: none;
 }
-#inspiration-gateway-720px{
+#inspiration-gatfooter-last-portion-bgeway-720px{
     display: none;
 }
 .inspiration-gateway-grid-division{
@@ -287,16 +287,91 @@ footer{
 #show-more{
     flex-direction: row;
     align-items: center;
+    gap: 3px;
 }
 .inspiration-gateway-body-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-top: 32px;
+    column-gap: 8px;
+    row-gap: 24px;
 }
 .inspiration-gateway-body-scroll{
     display: flex;
     overflow-x: scroll;
     white-space: nowrap;
     scrollbar-width: none;
+}
+.inspiration-gateway-body-scroll p{
+    color: #6a6a6a;
+}
+#future-gate-way-popular{
+    color: #000;
+    display: flex;
+    border-bottom: 2px solid #000;
+}
+.support,.hosting,.airbnb{
+    padding:  24px 0;
+}
+.support-head h2{
+    margin-bottom: 12px;
+    color: #222222;
+    font-size: 14px;
+    font-family: font3;
+}
+.support p,.hosting p,.airbnb p{
+    font-size: 14px;
+    font-family: font1;
+}
+.support-grid{
+    display: grid;
+    gap: 12px;
+    color: #222222;
+}
+.language{
+    display: flex;
+    gap: 10px;
+}
+.english,.inr{
+    font-family: font3;
+    font-size: 14px;
+}
+.inr{
+    padding-left: 15px;
+}
+.footer-last-portion-padding{
+    padding: 0 24px;
+}
+.privacy-2024{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.privacy-2024 p{
+    font-family: font1;
+    font-size: 14px;
+    color: #222222;
+
+}
+
+.c2024{
+    margin-bottom: 2px;
+}
+.socialmedia{
+    display: none;
+}
+.privacy{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 2px;
+}
+.footer-last-element{
+    padding: 24px 0;
+}
+.language{
+    margin-bottom: 22px;
+    align-items: center;
+    display: flex;
 }
 @media(min-width:375px){
     

@@ -65,4 +65,24 @@
   .card-content {
     margin-top: 9px;
   }
+  #inspiration-gateway-1160px{
+    display: block;
+  }
+  .inspiration-gateway-body-grid{
+    grid-template-columns: repeat(3,1fr);
+}
+.support-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.support, .hosting, .airbnb{
+  padding: 40px 0;
+}
+.footer-last-portion-padding{
+  padding: 0 40px;
+}
+.inspiration-gateway{
+  padding: 48px 40px;
+  justify-content: center;
+}
 }

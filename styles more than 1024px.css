@@ -1,8 +1,21 @@
-/* @media (min-width: 1027px) {
-  .grid-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-} */
+@media (min-width: 1027px) {
+  .inspiration-gateway-body-grid{
+    grid-template-columns: repeat(6,1fr);
+}
+.footer-last-element{
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+ justify-content: space-between;
+}
+.privacy-2024{
+  flex-direction: row;
+}
+.language{
+  margin: 0;
+}
+
+}
 @media (min-width: 1128px) {
   .nav-bar-Airbnb-logo-2 {
     display: block;
@@ -16,6 +29,9 @@
   #stays-inside-nav{
     gap: 33px;
   }
+  .inspiration-gateway-body-grid{
+    grid-template-columns: repeat(6,1fr);
+}
 }
 @media (min-width: 1200px) {
   .grid-container {
@@ -36,9 +52,18 @@
   main{
     padding: 0px 80px;
   }
+  .inspiration-gateway,.footer-last-portion-padding{
+    padding: 0px 80px;
+    justify-content: center;
+  }
+ 
 }
 @media (min-width: 1600px) {
   .grid-container {
     grid-template-columns: repeat(5, 1fr);
+  }
+  .inspiration-gateway{
+    padding: 48px 80px;
+    justify-content: center;
   }
 }
