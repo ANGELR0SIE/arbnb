@@ -1,0 +1,68 @@
+@media (min-width: 950px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #stays-inside-nav {
+    display: flex;
+    gap: 25px;
+    padding: 0 24px;
+    flex: 0 1 auto;
+    min-width: 348px;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    right: 0;
+    height: 80px;
+    align-items: center;
+  }
+  #stays-inside-nav .color-grey{
+    margin-right: 2px;
+  }
+  .nav-bar-Airbnb-logo-1 {
+    flex: 1 0 140px;
+  }
+  .stays-experience-743px {
+    display: flex;
+  }
+  .stays-experience-743px span {
+    font-size: 16px;
+  }
+  #stays-outside-nav {
+    display: none;
+  }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .search-bar-743px{
+    margin: 0;
+    padding: 0;
+    max-width: 848px;
+    min-width: 848px;
+    /* max-width: 100%; */
+  }
+  .search-bar-experences{
+  max-width: none;
+  display: flex;
+  justify-content: center;
+  }
+  header{
+    height: 100%;
+    border-bottom: 0px;
+  }
+  #search-item-where{
+    padding-right: 124px;
+  }
+  .search-item{
+    padding: 0 23.5px;
+  }
+  main{
+    margin-top: 13px;
+  }
+  .categories{
+    margin-top: 19px;
+  }
+  .card-content {
+    margin-top: 9px;
+  }
+}

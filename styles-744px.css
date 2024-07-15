@@ -1,0 +1,196 @@
+@media (min-width: 744px) {
+  .search-bar-350px {
+    display: none;
+  }
+  .nav-bar-Airbnb-logo-2 {
+    display: none;
+  }
+  .search-bar-hidden {
+    margin: 14px 16px 0;
+    padding: 0px 20px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
+    display: none;
+  }
+  .search-bar-hidden-flex-items {
+    padding: 0 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .search-bar-hidden-flex {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    padding: 0 4px;
+  }
+  #stays-inside-nav {
+    display: none;
+  }
+  .nav-bar-743px {
+    display: flex;
+    margin: 0 40px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-bar-743px-last-flex {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  .nav-bar-743px-last-flex-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .nav-bar-button {
+    display: flex;
+    padding: 8px 8px 8px 14px;
+    border-radius: 50px;
+    border: 1px solid #6a6a6a;
+    background-color: #fff;
+    align-items: center;
+    gap: 14px;
+  }
+  .color-121212 {
+    color: #222222;
+    font-family: font2;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  #stays-outside-nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 16px;
+    height: 45px;
+   margin-right: 2px;
+   margin-top: 1px;
+    align-items: center;
+  }
+  .stays-inside-nav {
+    display: none;
+  }
+  .stays-experience-743px span {
+    font-size: 16px;
+  }
+  header {
+    height: 240px;
+    box-shadow: none;
+    border-bottom: 1px solid  rgb(0 0 0/8%);
+  }
+  .search-bar-experences{
+    padding: 0 40px;
+    padding-bottom: 16px;
+    max-width: 850px;
+  }
+  .search-bar-743px {
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 2fr;
+    background: #ffff;
+    border-radius: 32px;
+    margin: 0px;
+    margin-top: 18px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* align-items: center; */
+    /* height: 62px; */
+  }
+  .search-item {
+    align-items: left;
+    justify-content: center;
+    border-right: 1px solid #ddd;
+    height: 32px;
+    padding: 0 23px;
+    margin: 16px 0;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-overflow: ellipsis;
+  }
+  .search-item p{
+    font-size: 12px;
+    color: #222222;
+    font-family: font2;
+    margin-bottom: 2px;
+    text-overflow: ellipsis;
+
+  }
+  .search-item span{
+    font-size: 14px;
+    font-family: font1;
+    color: #6a6a6a;
+    text-overflow: ellipsis;
+  }
+ 
+  #search-item-where{
+    padding: 0px 32px;
+    padding-right: 107px;
+  }
+  .who{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+   justify-content: center;
+   margin-top: 31px;
+    
+  }
+  #search-item-who{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 2px;
+  }
+  .search-item:last-child {
+    border-right: none;
+  }
+  .search-item-icon{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+  }
+  .search-item-icon svg{
+    background: #ff385c;
+    cursor: pointer;
+    padding: 16px 16px;
+    border-radius: 50%;
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .categories{
+    background-color: #fff;
+    position: sticky;
+    z-index: 1;
+    margin-top: 27px;
+    height: 80px;
+    margin-left: 36px;
+    margin-right: 38px;
+    padding: 0;
+    gap: 32px;
+    position: sticky;
+    overflow-y: hidden;
+  }
+  main{
+    margin-top: 105px;
+    padding: 0 40px;
+  }
+  .category-items{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+                  
+                                                    
