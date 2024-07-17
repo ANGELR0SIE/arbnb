@@ -3,11 +3,10 @@ window.onscroll = function() {
   };
   
   function toggleElementsOnScroll() {
-    const categories = document.querySelector('.categories');
+    const categories = document.querySelector('.category-flex');
     const searchBar = document.querySelector('.search-bar-hidden');
     const navBar = document.querySelector('.nav-bar-743px');
     const staysInsideNav = document.getElementById('stays-inside-nav');
-    const category = document.querySelector('categories');
     // const spacer = document.querySelector('.flex-spacer-nav-bar-743px');
   
     if (categories && searchBar && navBar && staysInsideNav) {
@@ -17,7 +16,9 @@ window.onscroll = function() {
           searchBar.style.display = 'flex';
           staysInsideNav.style.display = 'none';
           // spacer.style.display = 'none';
-          category.classList.add('sticky');
+          categories.style.position = 'sticky';
+          categories.style.top = '0';
+         
         } else {
           searchBar.style.display = 'none';
           staysInsideNav.style.display = 'flex';
