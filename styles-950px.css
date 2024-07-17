@@ -35,16 +35,36 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .search-bar-743px{
-    margin: 0;
-    padding: 0;
+    margin-top: 0px;
     max-width: 848px;
     min-width: 848px;
     /* max-width: 100%; */
+  }
+   .search-bar-hidden{
+    justify-content: center;
+    margin: 14px auto;
+    max-width: 352.09px;
+    
+  }
+  .search-bar-hidden-position{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    left: 0;
+  }
+  .nav-bar-743px{
+    background-color: #fff;
+    /* width: 91.8%; */
   }
   .search-bar-experences{
   max-width: none;
   display: flex;
   justify-content: center;
+  flex: 1;
+  margin-top: 80px;
+  }
+  .add-dates-content {
+    margin-left: 0px;
   }
   header{
     height: 100%;
@@ -85,4 +105,10 @@
   padding: 48px 40px;
   justify-content: center;
 }
+}
+@media (min-width: 1000px) {
+  .nav-bar-743px{
+    background-color: #fff;
+    /* width: 91.9%; */
+  }
 }

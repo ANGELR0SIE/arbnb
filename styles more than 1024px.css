@@ -37,6 +37,7 @@
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
   }
+
 }
 @media (min-width: 1400px) {
   .grid-container {
@@ -56,7 +57,7 @@
     padding: 0px 80px;
     justify-content: center;
   }
- 
+
 }
 @media (min-width: 1600px) {
   .grid-container {
@@ -66,4 +67,22 @@
     padding: 48px 80px;
     justify-content: center;
   }
+
 }
+  @media (min-width: 1700px){
+
+    .grid-container {
+      grid-template-columns: repeat(6, 1fr);
+    }
+    footer{
+     
+    }
+    .inspiration-gateway,
+    .support-flex,
+    .footer-last-element {
+      max-width: 1135px;
+      margin: auto;
+    }
+    
+  }
+
