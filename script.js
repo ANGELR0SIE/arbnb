@@ -65,7 +65,7 @@ function toggleElementsOnScroll() {
               categories.style.top = '48px';
               categories.style.right = '0';
               categories.style.left = '0';
-          } eclse {
+          } else {
               searchBar.style.display = 'none';
               // staysInsideNav.style.display = 'block';
               categories.style.position = 'static';
