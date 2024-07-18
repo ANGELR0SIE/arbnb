@@ -119,7 +119,9 @@ ul,li{
     margin-bottom: 4px;
     display: flex;
    justify-content: center;
+   opacity: 0.6742081447963801;
 }
+
 #farm{
    margin-left: 15px;
 }
@@ -148,6 +150,10 @@ ul,li{
     margin-top: 10px;
     margin-bottom: 0;
     padding-bottom: 14px;
+    
+}
+#selected .categories-icon{
+    opacity: 1;
 }
 header{
     box-shadow: rgb(0 0 0/16%) 0 0 6px;
@@ -280,7 +286,14 @@ footer{
 }
 .inspiration-gateway{
     padding: 48px 24px;
+    border-bottom: 1px solid rgb(0 0 0/8%);
 }
+.support-flex{
+    border-bottom: 1px solid rgb(0 0 0/8%);
+}
+.support{
+    border-bottom: 1px solid rgb(0 0 0/8%);
+  }
 .inspiration-gateway-head h2{
     margin-bottom: 8px;
    font-size: 22px;
@@ -326,6 +339,7 @@ footer{
     overflow-x: scroll;
     white-space: nowrap;
     scrollbar-width: none;
+    border-bottom: 1px solid rgb(0 0 0/8%);
 }
 .inspiration-gateway-body-scroll p{
     color: #6a6a6a;

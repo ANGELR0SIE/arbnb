@@ -105,6 +105,9 @@
   padding: 48px 40px;
   justify-content: center;
 }
+.support{
+  border-bottom: none;
+}
 }
 @media (min-width: 1000px) {
   .nav-bar-743px{

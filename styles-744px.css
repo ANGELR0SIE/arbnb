@@ -126,6 +126,7 @@
     box-shadow: none;
     border-bottom: 1px solid rgb(0 0 0/8%);
     position: relative;
+    background-color: #fff;
   }
   .search-bar-experences {
     padding: 0 40px;
