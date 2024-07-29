@@ -83,7 +83,7 @@ ul,li{
     height: 56px;
     display: flex;
     align-items: center;
-    border-radius: 9999px;
+    border-radius: 50%;
     box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
     border: 1px solid rgba(0 0 0 / 0.1);
 
@@ -178,7 +178,7 @@ main{
     margin-top: 168px;
   }
   
-  .card {
+ .card {
     position: relative;
     background-color: #fff;
     border-radius: 12px;
